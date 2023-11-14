@@ -1,0 +1,199 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  background: hsl(217, 100%, 97%);
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  z-index: -99;
+}
+
+.container {
+  width: 900px;
+
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 7px 21px -10px rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.stepsContainer {
+  position: relative;
+}
+
+.formFirstPage {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 38px;
+  color: hsl(213, 96%, 18%);
+}
+.formContainer p {
+  font-size: 16px;
+  color: hsl(231, 11%, 63%);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+input {
+  border: solid hsl(229, 24%, 87%) 1px;
+}
+input::placeholder {
+  color: hsl(231, 11%, 63%);
+}
+.nextBTN {
+  width: 120px;
+  font-size: 16px;
+  padding: 14px;
+  border: none;
+  background: hsl(213, 96%, 18%);
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 16px;
+  right: 66px;
+  font-weight: 500;
+}
+.nextBTN:hover {
+  background: hsl(213, 95%, 25%);
+}
+.backBTN {
+  font-size: 16px;
+  border: none;
+  background: none;
+  color: hsl(231, 11%, 63%);
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  font-weight: 500;
+}
+.backBTN:hover {
+  color: hsl(213, 96%, 18%);
+}
+.stepsElements {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.stepNumber {
+  color: white;
+  background: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: white solid 1px;
+  font-weight: 700;
+}
+.step {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.stepInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4px;
+  width: 100px;
+}
+.singleStepInfo {
+  color: white;
+  font-size: 14px;
+}
+.numberOfStep {
+  font-size: 13px;
+  color: hsl(229, 24%, 87%);
+}
+.active {
+  background: hsl(206, 94%, 87%);
+  border: hsl(231, 11%, 63%) solid 1px;
+  color: black;
+  font-size: 16px;
+}
+.confirmBTN {
+  width: 120px;
+  font-size: 16px;
+  padding: 14px;
+  border: none;
+  background: hsl(243, 100%, 62%);
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 16px;
+  right: 66px;
+  font-weight: 500;
+}
+.confirmBTN:hover {
+  background: hsl(243, 89%, 69%);
+}
+@media only screen and (width<= 400px) {
+  .app {
+    background: white;
+  }
+  .container {
+    background: hsl(217, 100%, 97%);
+    width: 500px;
+    height: 600px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .stepsContainer {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .stepsElements {
+    flex-direction: row;
+    gap: 0px;
+    padding-top: 0;
+    width: 50%;
+    height: 50%;
+
+    justify-content: none;
+    display: flex;
+  }
+  .stepInfo {
+    display: none;
+  }
+  .step {
+    margin: 0;
+    justify-content: space-around;
+    width: 50px;
+  }
+  .formContainer {
+    width: 340px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 7px 21px -10px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    gap: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .formContainer p {
+    margin-bottom: 14px;
+  }
+}

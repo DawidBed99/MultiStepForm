@@ -1,0 +1,146 @@
+.formSecondPage {
+  display: flex;
+  flex-direction: column;
+}
+.formContainerAddOns {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 40px 66px 40px 40px;
+  position: relative;
+}
+.formContainerAddOns p {
+  font-size: 16px;
+  color: hsl(231, 11%, 63%);
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+/* Customize the label (the container) */
+.checkboxContainer {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+  width: 100%;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid hsl(229, 24%, 87%) 1px;
+  border-radius: 12px;
+}
+.checkboxContainer:hover {
+  border: solid hsl(243, 100%, 62%) 1px;
+}
+/* Hide the browser's default checkbox */
+.checkboxContainer input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: white;
+  border-radius: 4px;
+  border: solid 1px hsl(229, 24%, 87%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.checkboxContainer input:checked ~ .checkmark {
+  background-color: hsl(243, 100%, 62%);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxContainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkboxContainer .checkmark:after {
+  margin-bottom: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.checkboxContainer p {
+  margin: 0;
+  font-size: 16px;
+}
+.clicked {
+  background: hsl(217, 100%, 97%);
+  border: solid hsl(243, 100%, 62%) 1px;
+}
+#addOnsText {
+  font-size: 14px;
+}
+.addOnsTextContainer {
+  text-align: left;
+  width: 300px;
+}
+#addOnsPrice {
+  color: hsl(243, 100%, 62%);
+  font-weight: 500;
+  font-size: 14px;
+}
+#addOnsTitle {
+  color: hsl(213, 96%, 18%);
+  font-weight: 700;
+}
+@media only screen and (width<= 400px) {
+  .formContainerAddOns {
+    width: 340px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 7px 21px -10px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    display: flex;
+    margin-top: 48px;
+    gap: 10px;
+  }
+  .checkboxContainer {
+    padding: 15px 15px;
+  }
+  #addOnsText,
+  #addOnsPrice {
+    font-size: 13px;
+  }
+  .formContainerAddOns .nextBTN {
+    bottom: -195px;
+    width: 110px;
+    right: 0px;
+    border-radius: 4px;
+  }
+
+  .formContainerAddOns .backBTN {
+    bottom: -180px;
+    left: 0px;
+  }
+  .addOnsTextContainer {
+    width: 90%;
+  }
+  .checkmark {
+    margin-right: 10px;
+    width: 22px;
+    height: 18px;
+  }
+}

@@ -1,0 +1,46 @@
+#thankIMG {
+  height: 80px;
+}
+.formContainerThanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  text-align: center;
+  gap: 20px;
+  position: relative;
+}
+.thanksContainer {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.thanksContainer p {
+  font-size: 16px;
+  color: hsl(231, 11%, 63%);
+  font-weight: 400;
+  line-height: 1.5;
+}
+#thankHeader {
+  font-size: 28px;
+  color: hsl(213, 96%, 18%);
+}
+
+@media only screen and (width<= 400px) {
+  #thankIMG {
+    height: 60px;
+  }
+  .formContainerThanks {
+    width: 340px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 7px 21px -10px rgba(0, 0, 0, 0.3);
+    padding: 25px 20px;
+    display: flex;
+    margin-top: 48px;
+    gap: 20px;
+    text-align: center;
+  }
+}

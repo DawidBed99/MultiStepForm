@@ -1,0 +1,104 @@
+.formFirstPage {
+  display: flex;
+  flex-direction: column;
+}
+.formContainerPersonal {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 40px 66px 40px 40px;
+  position: relative;
+}
+.formContainerPersonal p {
+  font-size: 16px;
+  color: hsl(231, 11%, 63%);
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.formFirstPage label {
+  color: hsl(213, 96%, 18%);
+  font-size: 15px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.formFirstPage .personalInfoInput {
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.formFirstPage .personalInfoInput:focus {
+  border: solid 1px hsl(243, 100%, 62%);
+}
+
+.formFirstPage .personalInfoInput::placeholder {
+  color: hsl(231, 11%, 63%);
+}
+.formFirstPage .nextBTN {
+  width: 120px;
+  font-size: 16px;
+  padding: 14px;
+  border: none;
+  background: hsl(213, 96%, 18%);
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 16px;
+  right: 66px;
+  font-weight: 500;
+}
+.formFirstPage .validateError {
+  margin: 0;
+  font-size: 12px;
+  color: hsl(354, 84%, 57%);
+  font-weight: 500;
+}
+.errorBorder {
+  border: solid 1px hsl(354, 84%, 57%);
+}
+.errorBorder:focus {
+  border: solid 1px hsl(243, 100%, 62%);
+}
+@media only screen and (width<= 400px) {
+  .formFirstPage .personalInfoInput {
+    padding: 12px 14px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+  .formContainerPersonal {
+    width: 340px;
+    height: 420px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 7px 21px -10px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    gap: 10px;
+    margin-bottom: 34px;
+  }
+  .formContainerPersonal .nextBTN {
+    width: 110px;
+    font-size: 16px;
+    padding: 14px;
+    border: none;
+    background: hsl(213, 96%, 18%);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -175px;
+    right: 0px;
+    font-weight: 500;
+  }
+}
