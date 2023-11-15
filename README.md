@@ -23,10 +23,10 @@ In this project, main topic was about building out multi-step form as close to t
 - Going back to a previous step to update selections
 - Displaying a summary of selections on the final step and confirming an order
 - Receiving form validation messages if:
-  -- A field has been missed
-  -- The email address is not formatted correctly
-  -- A step is submitted, but no selection has been made
-  -- Phone number is not of a required length
+  - A field has been missed
+  - The email address is not formatted correctly
+  - A step is submitted, but no selection has been made
+  - Phone number is not of a required length
 - RWD
 
 
