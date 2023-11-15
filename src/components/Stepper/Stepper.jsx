@@ -25,7 +25,7 @@ export default function Stepper() {
   }, [screenSize]);
   return (
     <div className="stepsContainer">
-      <img src={screenSize.width > 400 ? stepsImg : stepsImgMobile}></img>
+      <img alt="" src={screenSize.width > 400 ? stepsImg : stepsImgMobile}></img>
       <div className="stepsElements">
         <div className="step">
           <button className={`stepNumber  ${page === 0 ? "active" : ""}`}>
