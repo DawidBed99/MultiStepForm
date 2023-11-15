@@ -41,7 +41,7 @@ In this project, main topic was about building out multi-step form as close to t
 <img width="465" alt="4thPageMonthly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/ec7cf5cb-1903-4b6f-8dc6-1834f73f90e4">
 <img width="465" alt="4thPageYearly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/54e15554-d3e7-43e2-9096-5108c70c783a">
 <img width="465" alt="Thanks" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/8e8c399a-1eb1-43da-afab-9eed2548f582">
-<img width="194" alt="Mobile1stPage" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/9b2e9662-38bd-42db-8ab0-b336bfbc1e0c"> <br />
+<img width="194" height="300" alt="Mobile1stPage" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/9b2e9662-38bd-42db-8ab0-b336bfbc1e0c"> <br />
 <img width="194" alt="Mobile1stPageError" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/8f0b8f07-e9a6-41cd-a297-de32e6ea9436"> 
 <img width="194" alt="Mobile1stPageNoError" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/7ec4beaa-7378-4cbf-9493-321fc58c0d76"> 
 <img width="194" alt="Mobile2ndPageMonthly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/cca4a295-fa53-4d1f-803e-af74c4129107"> 
