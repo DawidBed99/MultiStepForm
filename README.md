@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Multi-step form
+This is a solution to the [Multi-step form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Functionalities](#functionalities)
+  - [Screenshot](#screenshot)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### The challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In this project, main topic was about building out multi-step form as close to the design as possible.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Functionalities
 
-### `npm test`
+- Displaying multiple steps containing forms
+- Going back to a previous step to update selections
+- Displaying a summary of selections on the final step and confirming an order
+- Receiving form validation messages if:
+  - A field has been missed
+  - The email address is not formatted correctly
+  - A step is submitted, but no selection has been made
+  - Phone number is not of a required length
+- RWD
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Screenshots
+<img width="465" alt="1stPageLight" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/231ccf8a-b925-4695-b497-b3a1c8ea3c3c">
+<img width="465" alt="1stPageLightErrors" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/626b32ad-0930-421c-a08b-bafa2a6c20a1">
+<img width="465" alt="1stPageLightNoErrors" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/1dc1361a-b5d1-4f29-b49b-f6193ead9443">
+<img width="465" alt="2ndPageMonthly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/0a173d19-91e1-41b3-a116-8f39192aa14a">
+<img width="465" alt="2ndPageYearly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/1ea715a0-9cae-4fe4-823d-650b105cf5da">
+<img width="465" alt="3rdPageMonthly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/85d7a221-2e4b-41ee-bc24-d633c021e92e">
+<img width="465" alt="3rdPageYearly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/b187f466-9165-4f33-bab7-f0776ad609bc">
+<img width="465" alt="4thPageMonthly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/ec7cf5cb-1903-4b6f-8dc6-1834f73f90e4">
+<img width="465" alt="4thPageYearly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/54e15554-d3e7-43e2-9096-5108c70c783a">
+<img width="465" alt="Thanks" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/8e8c399a-1eb1-43da-afab-9eed2548f582">
+<img height="400" alt="Mobile1stPage" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/9b2e9662-38bd-42db-8ab0-b336bfbc1e0c"> 
+<img height="400" alt="Mobile1stPageError" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/8f0b8f07-e9a6-41cd-a297-de32e6ea9436"> 
+<img height="400"alt="Mobile1stPageNoError" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/7ec4beaa-7378-4cbf-9493-321fc58c0d76"> 
+<img height="400" alt="Mobile2ndPageMonthly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/cca4a295-fa53-4d1f-803e-af74c4129107"> 
+<img height="400" alt="Mobile2ndPageYearly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/546b4b29-4632-4d02-94b0-12a743f591a8"> 
+<img height="400" alt="Mobile3rdPageMonthly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/1e7e0dcf-21c4-44b3-a278-7f2e81366d0b"> 
+<img height="400" alt="Mobile3rdPageYearly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/f0ad5ba1-de27-4a3f-8be1-f00f7aa39958"> 
+<img height="400" alt="Mobile4thPageMonthly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/954d03cb-3780-474f-b164-eee6a7d38011"> 
+<img height="400" alt="Mobile4thPageYearly" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/f30f92ae-8a6f-4c14-a158-6d09e11c8f9e"> 
+<img height="400" alt="MobileThanks" src="https://github.com/DawidBed99/MultiStepForm/assets/128499430/d5554115-e976-4ec7-bc36-a1760f10f83d">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- JavaScript
+- React.js
+- React Router
+- useContext Hook
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### What I learned
 
-### `npm run eject`
+This project helped me practice React Router and useContext Hook.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Author
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Frontend Mentor - [@DawidBed99](https://www.frontendmentor.io/profile/DawidBed99)
+- Github - [@DawidBed99](https://github.com/DawidBed99)
