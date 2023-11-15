@@ -57,12 +57,11 @@ In this project, main topic was about building out multi-step form as close to t
 - JavaScript
 - React.js
 - React Router
-- RWD
 - useContext Hook
 
 ### What I learned
 
-This project helped me practice React Router, useContext Hook and RWD.
+This project helped me practice React Router and useContext Hook.
 
 ## Author
 
