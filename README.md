@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Multi-step form
+This is a solution to the [Multi-step form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Functionalities](#functionalities)
+  - [Screenshot](#screenshot)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### The challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In this project, main topic was about building out multi-step form as close to the design as possible.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Functionalities
 
-### `npm test`
+- Displaying multiple steps containing forms
+- Going back to a previous step to update selections
+- Displaying a summary of selections on the final step and confirming an order
+- Receiving form validation messages if:
+  -- A field has been missed
+  -- The email address is not formatted correctly
+  -- A step is submitted, but no selection has been made
+  -- Phone number is not of a required length
+- RWD
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="700" alt="Light" src="https://github.com/DawidBed99/countries/assets/128499430/83afc46c-2c51-4c5d-9134-0cc1b8cae4d4">
+<img width="700" alt="Dark" src="https://github.com/DawidBed99/countries/assets/128499430/5234dd40-bf10-439e-be84-093e6fec1a33">
+<img width="400" alt="MobileLight" src="https://github.com/DawidBed99/countries/assets/128499430/e8510f03-0025-4f04-90b5-7024ef19fe59"> <br/>
+<img width="400" alt="MobileDark" src="https://github.com/DawidBed99/countries/assets/128499430/b2751a7b-728d-4fb6-9264-5a2313f95056">  <br/>
+<img width="700" alt="LightSingle" src="https://github.com/DawidBed99/countries/assets/128499430/0733c007-f892-429e-8cd7-94bc6399be5d">
+<img width="700" alt="DarkSingle" src="https://github.com/DawidBed99/countries/assets/128499430/5fa95460-9b5d-4236-a52d-d9e233167bfe">
+<img width="400" alt="MobileLightSingle" src="https://github.com/DawidBed99/countries/assets/128499430/b7006d44-5b95-4d48-ad8a-9dd02d563195">  <br/>
+<img width="400" alt="MobileDarkSingle" src="https://github.com/DawidBed99/countries/assets/128499430/8101dabb-ed90-4390-a6ac-c3712f434481">  <br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built with
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- JavaScript
+- React.js
+- React Router
+- REST API
+- RWD
+- Material UI
 
-### `npm run eject`
+### What I learned
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project helped me practice React Router, REST API and filtering and sorting items displayed on the page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Frontend Mentor - [@DawidBed99](https://www.frontendmentor.io/profile/DawidBed99)
+- Github - [@DawidBed99](https://github.com/DawidBed99)
