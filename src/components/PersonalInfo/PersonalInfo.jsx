@@ -12,7 +12,13 @@ export default function PersonalInfo() {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    defaultValues: {
+      name: data.name,
+      email: data.email,
+      phoneNumber: data.phoneNumber,
+    },
+  });
 
   return (
     <div className="formContainerPersonal">
@@ -38,11 +44,12 @@ export default function PersonalInfo() {
             placeholder="e.g. Stephen King"
             type="text"
             id="name"
-            value={data.name}
             {...register("name", {
               required: "This field is required",
+              onChange: (e) => {
+                handleChange(e);
+              },
             })}
-            onChange={handleChange}
           />
           <label htmlFor="email">
             Email Address
@@ -56,15 +63,16 @@ export default function PersonalInfo() {
             placeholder="e.g. stephenking@lorem.com"
             type="text"
             id="email"
-            value={data.email}
             {...register("email", {
               required: "This field is required",
               pattern: {
                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
                 message: "Please enter a valid email",
               },
+              onChange: (e) => {
+                handleChange(e);
+              },
             })}
-            onChange={handleChange}
           />
           <label htmlFor="phoneNumber">
             Phone number{" "}
@@ -78,12 +86,13 @@ export default function PersonalInfo() {
             placeholder="e.g. +1 234 567 890"
             type="text"
             id="phoneNumber"
-            value={data.phoneNumber}
             {...register("phoneNumber", {
               required: "This field is required",
               minLength: { value: 9, message: "Minimum length is 9" },
+              onChange: (e) => {
+                handleChange(e);
+              },
             })}
-            onChange={handleChange}
           />
         </div>
         <button type="submit" className="nextBTN">
