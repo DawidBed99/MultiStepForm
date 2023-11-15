@@ -46,13 +46,12 @@ In this project, main topic was about building out multi-step form as close to t
 - JavaScript
 - React.js
 - React Router
-- REST API
 - RWD
-- Material UI
+- useContext Hook
 
 ### What I learned
 
-This project helped me practice React Router, REST API and filtering and sorting items displayed on the page.
+This project helped me practice React Router, useContext Hook and RWD.
 
 ## Author
 
